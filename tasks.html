@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tasks</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+<div class="topbar">
+<div class="logo">Tasks</div>
+<div class="coins">🪙 1250</div>
+</div>
+
+<div class="tasks-box">
+<h2>Daily Tasks</h2>
+
+<div class="task-item">
+<span>Daily Login</span>
+<button onclick="completeTask('Daily Login',1)">₹1</button>
+</div>
+
+<div class="task-item">
+<span>Watch Ad</span>
+<button onclick="completeTask('Watch Ad',2)">₹2</button>
+</div>
+
+<div class="task-item">
+<span>Open App 5 Minutes</span>
+<button onclick="completeTask('Open App',2)">₹2</button>
+</div>
+
+<div class="task-item">
+<span>Refer Friend</span>
+<button onclick="completeTask('Referral',5)">₹5</button>
+</div>
+
+<div class="locked">
+🔒 Reach 100K Followers To Unlock Premium Tasks
+</div>
+</div>
+
+<div class="bottom-nav">
+<div onclick="window.location.href='home.html'">
+<i class="fa-solid fa-house"></i>
+<span>Home</span>
+</div>
+
+<div onclick="window.location.href='tasks.html'">
+<i class="fa-solid fa-list-check"></i>
+<span>Tasks</span>
+</div>
+
+<div onclick="window.location.href='referral.html'">
+<i class="fa-solid fa-user-group"></i>
+<span>Referral</span>
+</div>
+
+<div onclick="window.location.href='withdraw.html'">
+<i class="fa-solid fa-wallet"></i>
+<span>Withdraw</span>
+</div>
+
+<div onclick="window.location.href='premium.html'">
+<i class="fa-solid fa-crown"></i>
+<span>Premium</span>
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
